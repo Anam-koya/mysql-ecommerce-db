@@ -7,7 +7,7 @@ A relational database project simulating the backend data layer of an e-commerce
 
 This project models a simple online store with customers, products, orders, and order items. It covers core database concepts including normalization, foreign key constraints, and multi-table JOIN queries.
 
-- ### 🗂️ Database Schema
+ ### 🗂️ Database Schema
 
 The database consists of 4 tables:
 
@@ -19,25 +19,25 @@ The database consists of 4 tables:
  | `order_items` | Links orders to products with quantity and price |
 
 
-- ### 📊 ER Diagram
+ ### 📊 ER Diagram
 
  ![ER Diagram](er_diagram.png)
 
-- ### 🔍 Key Findings: 
+ ### 🔍 Key Findings
 
- Total revenue per customer
- Best-selling products
- Monthly revenue trend
- Low stock alert
- Average order value
+ - Total revenue per customer
+ - Best-selling products
+ - Monthly revenue trend
+ - Low stock alert
+ - Average order value
  
 
-- ### 🛠️ Tools Used
+ ### 🛠️ Tools Used
   MySQL 8.0
   MySQL Workbench
 
 
-- ### 🚀 How to Run
+ ### 🚀 How to Run
 
 1. Open MySQL Workbench and connect to your local server
 2. Run `schema.sql` to create the database and tables
@@ -45,7 +45,7 @@ The database consists of 4 tables:
 4. Run any query from `queries.sql` to explore the data
 
 
-- ### 📁 File Structure
+ ### 📁 File Structure
 
 ```
 ecommerce-mysql/
