@@ -1,0 +1,87 @@
+
+-- Insert Customers
+INSERT INTO customers (name, email, city) VALUES
+('Aarav Sharma', 'aarav.sharma@email.com', 'Mumbai'),
+('Priya Patel', 'priya.patel@email.com', 'Delhi'),
+('Rohan Mehta', 'rohan.mehta@email.com', 'Bangalore'),
+('Sneha Iyer', 'sneha.iyer@email.com', 'Chennai'),
+('Vikram Singh', 'vikram.singh@email.com', 'Hyderabad'),
+('Anjali Gupta', 'anjali.gupta@email.com', 'Pune'),
+('Karan Joshi', 'karan.joshi@email.com', 'Kolkata'),
+('Meera Nair', 'meera.nair@email.com', 'Ahmedabad'),
+('Arjun Reddy', 'arjun.reddy@email.com', 'Jaipur'),
+('Divya Kapoor', 'divya.kapoor@email.com', 'Lucknow'),
+('Nikhil Verma', 'nikhil.verma@email.com', 'Mumbai'),
+('Pooja Desai', 'pooja.desai@email.com', 'Surat'),
+('Rahul Bose', 'rahul.bose@email.com', 'Delhi'),
+('Tanya Malhotra', 'tanya.malhotra@email.com', 'Bangalore'),
+('Suresh Kumar', 'suresh.kumar@email.com', 'Chennai');
+
+-- Insert Products
+INSERT INTO products (name, category, price, stock_qty) VALUES
+('Wireless Earbuds', 'Electronics', 1299.00, 50),
+('Smartphone Case', 'Accessories', 299.00, 120),
+('USB-C Hub', 'Electronics', 1899.00, 35),
+('Mechanical Keyboard', 'Electronics', 3499.00, 20),
+('Mouse Pad XL', 'Accessories', 499.00, 75),
+('Bluetooth Speaker', 'Electronics', 2199.00, 40),
+('Laptop Stand', 'Accessories', 899.00, 60),
+('Webcam HD', 'Electronics', 2799.00, 25),
+('HDMI Cable 2m', 'Accessories', 349.00, 200),
+('Desk Lamp LED', 'Home & Office', 799.00, 55),
+('Notebook A5 Pack', 'Stationery', 199.00, 150),
+('Pen Set (12pc)', 'Stationery', 149.00, 180),
+('Sticky Notes Pack', 'Stationery', 99.00, 300),
+('Water Bottle 1L', 'Lifestyle', 599.00, 90),
+('Cable Organizer', 'Accessories', 249.00, 110),
+('Screen Cleaner Kit', 'Accessories', 199.00, 95),
+('Portable Charger', 'Electronics', 1599.00, 45),
+('Ergonomic Chair Cushion', 'Home & Office', 1199.00, 30),
+('Whiteboard Markers', 'Stationery', 129.00, 8),
+('Mini Fan USB', 'Home & Office', 449.00, 6);
+
+-- Insert Orders
+INSERT INTO orders (customer_id, order_date, status) VALUES
+(1, '2024-11-01 10:30:00', 'delivered'),
+(2, '2024-11-03 14:15:00', 'delivered'),
+(3, '2024-11-05 09:00:00', 'delivered'),
+(4, '2024-11-07 16:45:00', 'delivered'),
+(5, '2024-11-10 11:20:00', 'delivered'),
+(6, '2024-11-12 13:00:00', 'shipped'),
+(7, '2024-11-14 10:05:00', 'shipped'),
+(8, '2024-11-15 15:30:00', 'delivered'),
+(9, '2024-11-17 08:50:00', 'delivered'),
+(10, '2024-11-19 12:10:00', 'shipped'),
+(1, '2024-11-20 17:00:00', 'delivered'),
+(3, '2024-11-21 09:30:00', 'cancelled'),
+(11, '2024-11-22 14:00:00', 'delivered'),
+(12, '2024-11-23 11:45:00', 'pending'),
+(13, '2024-11-25 10:20:00', 'shipped'),
+(14, '2024-11-26 16:00:00', 'pending'),
+(5, '2024-11-27 13:30:00', 'pending'),
+(15, '2024-11-28 09:15:00', 'delivered'),
+(2, '2024-11-29 15:00:00', 'pending'),
+(7, '2024-11-30 10:45:00', 'pending');
+
+-- Insert Order Items
+INSERT INTO order_items (order_id, product_id, quantity, unit_price) VALUES
+(1, 1, 1, 1299.00), (1, 2, 2, 299.00), (1, 9, 1, 349.00),
+(2, 4, 1, 3499.00), (2, 5, 1, 499.00),
+(3, 6, 1, 2199.00), (3, 15, 2, 249.00),
+(4, 8, 1, 2799.00), (4, 16, 1, 199.00),
+(5, 17, 2, 1599.00), (5, 14, 1, 599.00),
+(6, 3, 1, 1899.00), (6, 7, 1, 899.00), (6, 11, 3, 199.00),
+(7, 10, 2, 799.00), (7, 12, 2, 149.00),
+(8, 1, 1, 1299.00), (8, 9, 2, 349.00), (8, 13, 3, 99.00),
+(9, 4, 1, 3499.00), (9, 2, 1, 299.00),
+(10, 18, 1, 1199.00), (10, 10, 1, 799.00),
+(11, 6, 1, 2199.00), (11, 17, 1, 1599.00),
+(12, 3, 1, 1899.00),
+(13, 1, 2, 1299.00), (13, 5, 1, 499.00),
+(14, 7, 1, 899.00), (14, 16, 2, 199.00), (14, 15, 1, 249.00),
+(15, 8, 1, 2799.00), (15, 9, 3, 349.00),
+(16, 4, 1, 3499.00), (16, 12, 3, 149.00),
+(17, 6, 2, 2199.00),
+(18, 17, 1, 1599.00), (18, 14, 2, 599.00), (18, 11, 2, 199.00),
+(19, 1, 1, 1299.00), (19, 3, 1, 1899.00),
+(20, 8, 1, 2799.00), (20, 13, 5, 99.00);
