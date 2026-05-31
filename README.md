@@ -23,18 +23,18 @@ The database consists of 4 tables:
 
  ![ER Diagram](er_diagram.png)
 
-- ### 🔍 Key Findings
+- ### 🔍 Key Findings: 
 
-Total revenue per customer
-Best-selling products
-Monthly revenue trend
-Low stock alert
-Average order value
-
+ Total revenue per customer
+ Best-selling products
+ Monthly revenue trend
+ Low stock alert
+ Average order value
+ 
 
 - ### 🛠️ Tools Used
- MySQL 8.0
- MySQL Workbench
+  MySQL 8.0
+  MySQL Workbench
 
 
 - ### 🚀 How to Run
