@@ -10,7 +10,7 @@ This project models a simple online store with customers, products, orders, and 
 
 ---
 
-## -  🗂️ Database Schema
+- ## 🗂️ Database Schema
 
 The database consists of 4 tables:
 
@@ -23,13 +23,13 @@ The database consists of 4 tables:
 
 ---
 
-## 📊 ER Diagram
+- ## 📊 ER Diagram
 
 ![ER Diagram](er_diagram.png)
 
 ---
 
-## - 🔍 Key Findings
+- ## 🔍 Key Findings
 
 - Total revenue per customer
 - Best-selling products
@@ -39,13 +39,13 @@ The database consists of 4 tables:
 
 ---
 
-## - 🛠️ Tools Used
+- ## 🛠️ Tools Used
 - MySQL 8.0
 - MySQL Workbench
 
 ---
 
-## - 🚀 How to Run
+- ## 🚀 How to Run
 
 1. Open MySQL Workbench and connect to your local server
 2. Run `schema.sql` to create the database and tables
@@ -54,7 +54,7 @@ The database consists of 4 tables:
 
 ---
 
-## - 📁 File Structure
+- ## 📁 File Structure
 
 ```
 ecommerce-mysql/
