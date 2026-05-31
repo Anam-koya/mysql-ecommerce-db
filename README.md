@@ -33,8 +33,7 @@ The database consists of 4 tables:
  
 
  ### 🛠️ Tools Used
- 
-  MySQL Workbench
+ = MySQL Workbench
 
 
  ### 🚀 How to Run
