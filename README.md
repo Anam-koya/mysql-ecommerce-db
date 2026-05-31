@@ -31,11 +31,11 @@ The database consists of 4 tables:
 
 ## 🔍 Key Findings
 
-### Total revenue per customer
-### Best-selling products
-### Monthly revenue trend
-### Low stock alert
-### Average order value
+- Total revenue per customer
+- Best-selling products
+- Monthly revenue trend
+- Low stock alert
+- Average order value
 
 ---
 
